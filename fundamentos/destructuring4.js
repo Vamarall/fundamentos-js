@@ -8,3 +8,4 @@ console.log(rand([50, 40])); // Exibe um número aleatório entre 40 e 50
 console.log(rand([992])); // Exibe um número aleatório entre 992 e 1000
 console.log(rand([, 10])); // Exibe um número aleatório entre 0 e 10
 console.log(rand([])); // Exibe um número aleatório entre 0 e 1000
+
