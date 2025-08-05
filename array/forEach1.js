@@ -8,4 +8,4 @@ aprovados.forEach(nome => console.log(nome))
 
 const exibirAprovado = aprovado => console.log(aprovado)
 
-aprovados.forEach(exibirAprovado)
+aprovados.forEach(exibirAprovado) 
