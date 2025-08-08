@@ -11,7 +11,7 @@ const menorSalario = ((menor, funcAtual) => {
 // axios.get(url) faz uma requisição GET para a URL fornecida
 axios.get(url).then(response => {
     const funcionarios = response.data;
-    //console.log(funcionarios);
+    //gconsole.log(funcionarios);
 
     const result = funcionarios.filter(chineses).filter(genero).reduce(menorSalario);
     console.log(result);
